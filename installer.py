@@ -35,7 +35,6 @@ print(f" {colorama.Fore.GREEN}Description:", app["description"])
 print(f" {colorama.Fore.GREEN}Homepage:", app["homepage"])
 if app["dependicies"] != "":
   print(f" {colorama.Fore.GREEN}Dependicies:", app["dependicies"])
-print("\n===================================================================================\n")
 
 if typer.confirm("Do you want to install this app?"):
   install(app, app_name)

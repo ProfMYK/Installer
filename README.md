@@ -14,3 +14,6 @@ python3 installer.py
 ```
 
 And follow the instructions in the script!
+
+# Applications
+Right know there is only `alacritty`, `pojaburg-picom` and `vscode` in the installer. More applications iwll come in the future!
